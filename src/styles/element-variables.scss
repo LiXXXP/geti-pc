@@ -1,0 +1,10 @@
+@forward 'node_modules/element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #3860F4
+    )
+  )
+);
+
+@use 'node_modules/element-plus/theme-chalk/src/index.scss' as *;
+
